@@ -1,0 +1,79 @@
+.title{
+    background: rgb(250, 222, 227);
+    width: 75%;
+    padding: 5px;
+    text-align: center;
+    border: 5px solid rgb(253, 247, 248);
+    border-radius: 10px;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+    
+}
+
+.gallery {
+    margin: 5px;
+    margin-top: 128px;
+    margin-left: 80px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    align-self: right;
+    height: 150px;
+  }
+
+  ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    
+  }
+
+.desc{
+    height: 100px;
+    width: 450px;
+    margin: 1px;
+    margin-left: 47px;
+    margin-top: 69px;
+}
+
+.featurs{
+    box-sizing: border-box;
+    display: flex;
+    background-color:rgb(214, 187, 187);
+    /* width: 600px; */
+    /* padding: 20px; */
+    margin: 20px auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 10px rgb(214, 187, 187);
+    border-radius: 10px;
+}
+
+.featurs div{
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px rgb(214, 187, 187);
+    border-radius: 10px;
+    
+} 
+
+.reviews div{
+    border: solid 5px rgb(214, 187, 187);
+    border-radius: 10px;
+    width:  30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.reviews :hover{
+    border-color: #ffffff;
+}
+
+  
